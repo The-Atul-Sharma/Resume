@@ -90,8 +90,6 @@ $("#header").prepend(formattedRole);
 var formattedName = HTMLheaderName.replace('%data%',bio.name);
 $("#header").prepend(formattedName);
 
-var f
-
 var formattedLocation = HTMLlocation.replace('%data%',bio.contacts.location)
 $("#topContacts").prepend(formattedLocation);
 var formattedTwitter = HTMLtwitter.replace("%data%",bio.contacts.twitter);
